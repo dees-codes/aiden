@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
+import laptopWithWorkflow from "@/assets/laptop-with-workflow.png";
 
 const Hero = () => {
   return (
@@ -40,56 +41,48 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right Column - Visual */}
+            {/* Right Column - Laptop with n8n Workflow */}
             <div className="relative animate-slide-up">
               <div className="relative">
-                {/* Background gradient */}
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 rounded-3xl blur-3xl"></div>
+                {/* Background gradient blur */}
+                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 rounded-3xl blur-3xl transform rotate-6"></div>
                 
-                {/* Main dashboard mockup */}
-                <div className="relative bg-card/80 backdrop-blur-sm border border-border/50 rounded-2xl p-6 shadow-[var(--shadow-elegant)]">
-                  <div className="space-y-4">
-                    {/* Dashboard header */}
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-3">
-                        <div className="w-3 h-3 bg-destructive rounded-full"></div>
-                        <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                        <div className="w-3 h-3 bg-success rounded-full"></div>
-                      </div>
-                      <div className="text-sm text-muted-foreground">Aiden Dashboard</div>
+                {/* Laptop with workflow */}
+                <div className="relative transform hover:scale-105 transition-transform duration-700">
+                  <img 
+                    src={laptopWithWorkflow}
+                    alt="Aiden AI automation workflow on laptop displaying n8n integration with AI agents, Slack, and business tools"
+                    className="w-full h-auto drop-shadow-2xl"
+                  />
+                  
+                  {/* Floating badges around laptop */}
+                  <div className="absolute -top-4 -left-4 bg-success/90 backdrop-blur-sm text-success-foreground px-3 py-2 rounded-full text-sm font-semibold shadow-lg animate-pulse">
+                    ✓ Active
+                  </div>
+                  
+                  <div className="absolute -bottom-4 -right-4 bg-primary/90 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                    Live Automation
+                  </div>
+                  
+                  <div className="absolute top-1/2 -left-6 bg-accent/90 backdrop-blur-sm text-accent-foreground px-3 py-2 rounded-full text-xs font-medium shadow-lg transform -rotate-12">
+                    AI Powered
+                  </div>
+                </div>
+
+                {/* Stats overlay */}
+                <div className="absolute -bottom-8 left-4 right-4 bg-card/95 backdrop-blur-sm border border-border/50 rounded-xl p-4 shadow-[var(--shadow-elegant)]">
+                  <div className="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                      <div className="text-lg font-bold text-success">127%</div>
+                      <div className="text-xs text-muted-foreground">Efficiency Gain</div>
                     </div>
-                    
-                    {/* Automation cards */}
-                    <div className="space-y-3">
-                      <div className="bg-primary/10 border border-primary/20 rounded-lg p-4">
-                        <div className="flex items-center justify-between">
-                          <div>
-                            <div className="font-semibold text-primary">Email Marketing</div>
-                            <div className="text-sm text-muted-foreground">+127% conversion rate</div>
-                          </div>
-                          <div className="text-2xl font-bold text-success">↗</div>
-                        </div>
-                      </div>
-                      
-                      <div className="bg-accent/10 border border-accent/20 rounded-lg p-4">
-                        <div className="flex items-center justify-between">
-                          <div>
-                            <div className="font-semibold text-accent">Lead Generation</div>
-                            <div className="text-sm text-muted-foreground">45 new leads today</div>
-                          </div>
-                          <div className="text-2xl font-bold text-success">↗</div>
-                        </div>
-                      </div>
-                      
-                      <div className="bg-primary-light/10 border border-primary-light/20 rounded-lg p-4">
-                        <div className="flex items-center justify-between">
-                          <div>
-                            <div className="font-semibold text-primary-light">Customer Support</div>
-                            <div className="text-sm text-muted-foreground">92% satisfaction rate</div>
-                          </div>
-                          <div className="text-2xl font-bold text-success">↗</div>
-                        </div>
-                      </div>
+                    <div>
+                      <div className="text-lg font-bold text-primary">45</div>
+                      <div className="text-xs text-muted-foreground">Tasks/Hour</div>
+                    </div>
+                    <div>
+                      <div className="text-lg font-bold text-accent">24/7</div>
+                      <div className="text-xs text-muted-foreground">Automated</div>
                     </div>
                   </div>
                 </div>

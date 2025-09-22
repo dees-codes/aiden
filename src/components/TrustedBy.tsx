@@ -36,11 +36,11 @@ const TrustedBy = () => {
             {/* Stats */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-border/50">
               <div className="text-center space-y-2">
-                <div className="text-3xl font-bold text-gradient">2,000+</div>
+                <div className="text-3xl font-bold text-gradient">200+</div>
                 <div className="text-muted-foreground">Active Businesses</div>
               </div>
               <div className="text-center space-y-2">
-                <div className="text-3xl font-bold text-gradient">50M+</div>
+                <div className="text-3xl font-bold text-gradient">50K+</div>
                 <div className="text-muted-foreground">Tasks Automated</div>
               </div>
               <div className="text-center space-y-2">

@@ -36,7 +36,7 @@ const Hero = () => {
 
               <div className="flex items-center gap-6 pt-4">
                 <div className="text-sm text-muted-foreground">
-                  Trusted by 2,000+ small businesses
+                  Trusted by 200+ small businesses
                 </div>
               </div>
             </div>
@@ -58,10 +58,6 @@ const Hero = () => {
                   {/* Floating badges around laptop */}
                   <div className="absolute -top-4 -left-4 bg-success/90 backdrop-blur-sm text-success-foreground px-3 py-2 rounded-full text-sm font-semibold shadow-lg animate-pulse">
                     ✓ Active
-                  </div>
-                  
-                  <div className="absolute -bottom-4 -right-4 bg-primary/90 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                    Live Automation
                   </div>
                   
                   <div className="absolute top-1/2 -left-6 bg-accent/90 backdrop-blur-sm text-accent-foreground px-3 py-2 rounded-full text-xs font-medium shadow-lg transform -rotate-12">

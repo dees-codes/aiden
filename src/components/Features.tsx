@@ -2,10 +2,6 @@ import { Card } from "@/components/ui/card";
 import { 
   Bot, 
   Zap, 
-  Target, 
-  Users, 
-  BarChart3, 
-  Shield,
   Clock,
   Workflow
 } from "lucide-react";
@@ -23,26 +19,6 @@ const Features = () => {
       description: "Get your first automation running in minutes, not weeks. Our intuitive platform makes complex automation simple."
     },
     {
-      icon: Target,
-      title: "Precision Targeting",
-      description: "Smart lead scoring and customer segmentation that identifies your best prospects with remarkable accuracy."
-    },
-    {
-      icon: Users,
-      title: "Team Collaboration",
-      description: "Seamless collaboration tools that keep your team aligned and productive across all automation workflows."
-    },
-    {
-      icon: BarChart3,
-      title: "Advanced Analytics",
-      description: "Real-time insights and predictive analytics that help you make data-driven decisions for your business."
-    },
-    {
-      icon: Shield,
-      title: "Enterprise Security",
-      description: "Bank-level security and compliance features that protect your business data and customer information."
-    },
-    {
       icon: Clock,
       title: "24/7 Monitoring",
       description: "Continuous monitoring and automatic optimization ensure your automations run smoothly around the clock."
@@ -55,7 +31,7 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-gradient-subtle">
+    <section id="features" className="pt-20 pb-12 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
@@ -100,20 +76,17 @@ const Features = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="text-center mt-16 animate-scale-in">
+          <div id="pricing" className="text-center mt-16 animate-scale-in">
             <div className="bg-card/60 backdrop-blur-sm border border-border/50 rounded-2xl p-8 max-w-2xl mx-auto shadow-[var(--shadow-card)]">
               <h3 className="text-2xl font-bold mb-4">
                 Ready to Transform Your Business?
               </h3>
               <p className="text-muted-foreground mb-6">
-                Join thousands of businesses already automating their success with Aiden.
+                Join hundreds of businesses already automating their success with Aiden.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="btn-hero">
-                  Start Your Free Trial
-                </button>
-                <button className="btn-outline-hero">
-                  Schedule a Demo
+              <div className="flex justify-center">
+                <button className="btn-hero consultation-button">
+                  Schedule a free consultation
                 </button>
               </div>
             </div>

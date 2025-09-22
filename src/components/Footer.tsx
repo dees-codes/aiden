@@ -92,22 +92,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Bottom Section */}
-          <div className="border-t border-border/50 mt-12 pt-8">
-            <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
-              <div className="text-sm text-muted-foreground">
-                Built with ❤️ for small business success
-              </div>
-              <div className="flex items-center gap-4">
-                <Button variant="outline" size="sm">
-                  Schedule Demo
-                </Button>
-                <Button variant="hero" size="sm">
-                  Get Started Free
-                </Button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </footer>

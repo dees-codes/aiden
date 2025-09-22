@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import aidenLogoSymbol from "@/assets/aiden-logo-symbol.png";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
             <div className="lg:col-span-1 space-y-6">
               <div className="flex items-center gap-3">
                 <img 
-                  src="/src/assets/aiden-logo-symbol.png" 
+                  src={aidenLogoSymbol} 
                   alt="Aiden AI" 
                   className="h-8 w-8"
                 />

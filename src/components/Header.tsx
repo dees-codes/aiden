@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, ChevronDown } from "lucide-react";
+import aidenLogo from "@/assets/aiden_log_no_bg.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img 
-              src="/src/assets/aiden_log_no_bg.png" 
+              src={aidenLogo} 
               alt="Aiden AI" 
               className="h-16 w-16"
             />

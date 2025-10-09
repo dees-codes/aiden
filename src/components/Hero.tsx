@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                   <span className="text-gradient-hero">AI-Powered Automation</span>
                   <br />
-                  <span className="text-foreground">Built for Small Business</span>
+                  <span className="text-foreground">Built for Small and Medium Businesses</span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
                   Transform your business operations with intelligent automation. 
@@ -36,7 +36,7 @@ const Hero = () => {
 
               <div className="flex items-center gap-6 pt-4">
                 <div className="text-sm text-muted-foreground">
-                  Trusted by 200+ small businesses
+                  Trusted by 200+ small and medium businesses
                 </div>
               </div>
             </div>

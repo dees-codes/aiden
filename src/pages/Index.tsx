@@ -3,17 +3,17 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TrustedBy from "@/components/TrustedBy";
 import Features from "@/components/Features";
-import Testimonials from "@/components/Testimonials";
+import CaseStudies from "@/components/CaseStudies";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   useEffect(() => {
     // Update page title and meta description for SEO
-    document.title = "Aiden AI Automation - Transform Your Small Business with AI";
+    document.title = "Aiden AI Automation - Transform Your Small and Medium Business with AI";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'AI-powered automation solutions for small businesses. Streamline workflows, boost productivity, and scale efficiently with Aiden\'s intelligent business automation platform.');
+      metaDescription.setAttribute('content', 'AI-powered automation solutions for small and medium businesses. Streamline workflows, boost productivity, and scale efficiently with Aiden\'s intelligent business automation platform.');
     }
 
     // Add structured data for SEO
@@ -21,7 +21,7 @@ const Index = () => {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Aiden AI Automation",
-      "description": "AI-powered automation platform for small businesses",
+      "description": "AI-powered automation platform for small and medium businesses",
       "url": "https://aiden.ai",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
@@ -56,7 +56,7 @@ const Index = () => {
         <Hero />
         <TrustedBy />
         <Features />
-        <Testimonials />
+        <CaseStudies />
       </main>
       <Footer />
     </div>

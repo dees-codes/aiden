@@ -18,7 +18,7 @@ const Footer = () => {
                 <span className="text-xl font-bold text-foreground">Aiden</span>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                AI-powered automation solutions designed to help small businesses 
+                AI-powered automation solutions designed to help small and medium businesses 
                 scale efficiently and compete effectively in today's market.
               </p>
               <div className="text-sm text-muted-foreground">

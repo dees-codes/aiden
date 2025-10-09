@@ -16,7 +16,7 @@ const TrustedBy = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-8">
             <p className="text-lg text-muted-foreground font-medium">
-              Trusted by small businesses from diverse industries
+              Trusted by small and medium businesses from diverse industries
             </p>
             
             {/* Company logos/names grid */}

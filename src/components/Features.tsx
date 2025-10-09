@@ -43,7 +43,7 @@ const Features = () => {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Everything you need to automate, optimize, and scale your business operations
-              with cutting-edge AI technology designed for small business success.
+              with cutting-edge AI technology designed for small and medium business success.
             </p>
           </div>
 
@@ -82,7 +82,7 @@ const Features = () => {
                 Ready to Transform Your Business?
               </h3>
               <p className="text-muted-foreground mb-6">
-                Join hundreds of businesses already automating their success with Aiden.
+                Start automating your business for as low as $600.
               </p>
               <div className="flex justify-center">
                 <button className="btn-hero consultation-button">
